@@ -10,6 +10,8 @@ import 'day_2/draw_dots.dart';
 import 'day_2/pulse_loading.dart';
 import 'day_2/pulse_loading.dart';
 import 'day_2/wave.dart';
+import 'day_3/fire_works_animation.dart';
+import 'day_3/signature_pad.dart';
 import 'day_3/wave_animation_with_controller.dart';
 
 void main() {
@@ -43,7 +45,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AnimatedWave()
+      home: Center(child: FireworksAnimation())
     );
   }
 }
